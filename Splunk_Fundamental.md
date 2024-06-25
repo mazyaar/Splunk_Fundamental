@@ -1,6 +1,6 @@
 # Splunk:
 
->1-	Introduce
+1-	Introduce
 2-	Implement
 3-	Setup and Configurations.
 4-	Advance Configurations
