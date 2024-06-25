@@ -33,7 +33,12 @@
 -	Detect
 -	Response
 -	Recover
-  ![socpr](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/socp1.png)
+-
+![socpr](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/socp1.png)
+![SplunkITIS](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/SplunkITIS.png)
+![spluserbv](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/spluserbv.png)
+![splfe](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/splfe.png)
+
 
 ## Cyber Attack lifecycle:
 
@@ -53,8 +58,11 @@
 ![NGsoc](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/NGsoc.png)
 *
 ![cyberattackl](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/cyberattackl.png)
+![splsec](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/splsec.png)
+
 
 ## Splunk Enterprise Data Pipeline:
+![res2](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/res2.png)
 
 *	Data Input
 *	Parsing
@@ -67,7 +75,7 @@
 ### Data input			indexer
 				universal Forwarder
 				heavy forwarder
-				
+![splunkindex](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/splunkindex.png)				
 				
 ### parsing				indexer
 				heavy forwarder
@@ -101,6 +109,7 @@
 
 - universal forwarder, light forwarder, Heavy forwarder.
 
+![splforwarders](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/splforwarders.png)
 
 > Note: Advice to use heavy forwarder when you want seprate parsing data and indexing data from specific instance and use two seprate instance.
 
@@ -216,9 +225,12 @@ _file configuration name: [file].conf_
 
 		(you can edit $SPLUNK_DB in $SPLUNK_HOME/etc/splunk-launch.conf)
 ***
+![splCl](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/splCl.png)
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ## Splunk for Medium size Business:
 _(Senario: Running a Splunk on small business)._
+![splmediumsizesen](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/splmediumsizesen.png)
 
 - 1 * windows Core:
     * LM
@@ -422,7 +434,7 @@ disabled=0
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Splunk for Large size Business:
-
+![splarch5](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/splarch5.png)
 
 1  x windows Core:
     LM
@@ -451,7 +463,7 @@ Fortiweb (FWB) = 172.17.97.109
 
 * Notice: one of search head must set as captain.
 * Notice: Forwarder never cluster. you should use load balancer and set setting on each forwarder manually.
-
+![str1](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/str1.png)
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Create virtual disk lvm:
 ```
@@ -1645,6 +1657,10 @@ Control access to resources on the Splunk platform by determine what
 | rex mode=sed field=Type "s/Device Type#All Device Types#//g" | Device Type#All Device Types#Datacenter |
 | \[CmdAV=show CmdArgAV=system CmdArgAV=resources CmdArgAV=module CmdArgAV=all CmdArgAV=<cr>\] <br> Rex mode=sed field=usercmd "s/\^(?:\? : \?)\|CmdAV=\? \?)\|CmdArgAV=(?:\? : \?)\s\//\//g" |  |
 
+![reg1](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/reg1.png)
+![reg2](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/reg2.png)
+![reg3](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/reg3.png)
+![reg4](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/reg4.png)
 
 ##
 
