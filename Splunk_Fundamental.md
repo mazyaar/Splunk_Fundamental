@@ -33,6 +33,7 @@
 -	Detect
 -	Response
 -	Recover
+  ![socpr](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/socp1.png)
 
 ## Cyber Attack lifecycle:
 
@@ -43,7 +44,15 @@
 -	Lateral Movment
 -	Target attainment
 -	Exfilltration, Corruption and disruption.
-
+![cyberattackl](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/cyberattackl.png)
+*
+![secusecase](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/secusecase.png)
+*
+![secsoc](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/secsoc.png)
+*
+![NGsoc](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/NGsoc.png)
+*
+![cyberattackl](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/cyberattackl.png)
 
 ## Splunk Enterprise Data Pipeline:
 
@@ -123,6 +132,7 @@ License Master(LM): Setup all icense on this Machine.
 
 * Note: Forwarder use Deployment Server and Search Head and Indexer Uses Master Cluster Node for Managment.
 
+![str1](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/str1.png)
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Splunk Dashboard.
@@ -140,10 +150,11 @@ Add new index: ``setting/ indedx/ New Index/ Set index name/ Save.``
 -	Stanza: Settings in strings, like change protocol, port or etc.
 -	attribute:	setting that in sub stanza.
 
+![dshwf](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/dshwf.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ## Splunk Enterprise .conf file:
-
+![splconf](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/splconf.png)
 _file configuration name: [file].conf_
 
 *** Two parts in file configuration:***
