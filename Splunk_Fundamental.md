@@ -1,15 +1,25 @@
+
 # Splunk:
 
-1-	Introduce
-2-	Implement
-3-	Setup and Configurations.
-4-	Advance Configurations
-5-	Applications and Add-on
-6-	Distributed structure
-7-	Forwarder Management
-8-	Users Management
-9-	Dashboard Management
-10-	Advance Settings
+## 1-	Introduce
+
+## 2-	Implement
+
+## 3-	Setup and Configurations
+
+## 4-	Advance Configurations
+
+## 5-	Applications and Add-on
+
+## 6-	Distributed structure
+
+## 7-	Forwarder Management
+
+## 8-	Users Management
+
+## 9-	Dashboard Management
+
+## 10-	Advance Settings
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
