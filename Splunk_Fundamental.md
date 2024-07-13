@@ -33,7 +33,7 @@
 -	Detect
 -	Response
 -	Recover
--
+
 ![socpr](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/socp1.png)
 ![SplunkITIS](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/SplunkITIS.png)
 ![spluserbv](https://raw.githubusercontent.com/mazyaar/Splunk_Fundamental/main/splunk/spluserbv.png)
